@@ -62,3 +62,21 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+// Clients carousel (uses the Owl Carousel library)
+$(".clients-carousel").owlCarousel({
+  autoplay: true,
+  dots: true,
+  loop: true,
+  responsive: {
+    0: {
+      items: 3
+    },
+    768: {
+      items: 4
+    },
+    900: {
+      items: 6
+    }
+  }
+});
