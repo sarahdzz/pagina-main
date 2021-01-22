@@ -40,7 +40,7 @@
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
           <li class="drop-down"><a href="">Drop Down</a>
@@ -120,6 +120,7 @@
 
     </div>
   </section><!-- End Hero -->
+  
   <!-- About -->
   <section class="content-section bg-light" id="about">
     <div class="container text-center">
@@ -134,55 +135,242 @@
     </div>
   </section>
 
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
+  <!-- section -->
+<div class="section padding_layout_1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="main_heading text_align_center">
+            <h2>Por que elejirnos</h2>
+            <p class="large">Fastest repair service with best price!</p>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="full text_align_center margin_bottom_30">
+          <div class="center">
+            <div class="icon"> <img src="images/it_service/i1.png" alt="#" /> </div>
+          </div>
+          <h4 class="theme_color">Data recovery</h4>
+          <p>Perspiciatis eos quos totam cum minima aut!</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="full text_align_center margin_bottom_30">
+          <div class="center">
+            <div class="icon"> <img src="images/it_service/i2.png" alt="#" /> </div>
+          </div>
+          <h4 class="theme_color">Computer repair</h4>
+          <p>Perspiciatis eos quos totam cum minima aut!</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="full text_align_center margin_bottom_30">
+          <div class="center">
+            <div class="icon"> <img src="images/it_service/i3.png" alt="#" /> </div>
+          </div>
+          <h4 class="theme_color">Mobile service</h4>
+          <p>Perspiciatis eos quos totam cum minima aut!</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="full text_align_center margin_bottom_30 margin_0">
+          <div class="center">
+            <div class="icon"> <img src="images/it_service/i4.png" alt="#" /> </div>
+          </div>
+          <h4 class="theme_color">Network solutions</h4>
+          <p>Perspiciatis eos quos totam cum minima aut!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 35px">
+      <div class="col-md-8">
+        <div class="full margin_bottom_30">
+          <div class="accordion border_circle">
+            <div class="bs-example">
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><i class="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i class="fa fa-angle-down"></i></a> </p>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it 
+                        over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><i class="fa fa-plane"></i> Recovery Photo, Image, Video and Audio<i class="fa fa-angle-down"></i></a> </p>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it 
+                        over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><i class="fa fa-star"></i> Mobile Phone Recovery<i class="fa fa-angle-down"></i></a> </p>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it 
+                        over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <p class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><i class="fa fa-bar-chart" aria-hidden="true"></i> Complete Recovery from Local & External Drive<i class="fa fa-angle-down"></i></a> </p>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it 
+                        over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, 
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="full" style="margin-top: 35px;">
+          <h3>Need file recovery?</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+            quasi architecto beatae vitae dicta sunt explicabo.. </p>
+          <p><a class="btn main_bt" href="#">Read More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Services -->
+  <div class="section padding_layout_1 gross_layout">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="full">
+          <div class="main_heading text_align_left">
+            <h2>Service Process</h2>
+            <p class="large">Easy and effective way to get your device repaired.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si1.png" alt="#" ></div>
+                <h4 class="service-heading">Fast service</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si2.png" alt="#"></div>
+                <h4 class="service-heading">Secure payments</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si3.png" alt="#"></div>
+                <h4 class="service-heading">Expert team</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si4.png" alt="#"></div>
+                <h4 class="service-heading">Affordable services</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si5.png" alt="#"></div>
+                <h4 class="service-heading">90 Days warranty</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="full">
+              <div class="service_blog_inner">
+                <div class="icon text_align_left"><img src="images/it_service/si6.png" alt="#"></div>
+                <h4 class="service-heading">Award winning</h4>
+                <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- section -->
+<div class="section padding_layout_1 light_silver service_list">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 service_blog">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-02.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-03.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section services -->
 
    <!-- ======= Clients Section ======= -->
    <!-- < div  class = " owl-carousel owl-theme " >  -->
