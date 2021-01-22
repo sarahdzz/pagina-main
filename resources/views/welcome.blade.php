@@ -15,7 +15,12 @@
 
   <!-- Custom Fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link rel = "preconnect" href = "https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Lobster&display=swap" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
@@ -30,45 +35,29 @@
 
   <!-- Header -->
   <header id="header"  class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-between">
+  <div class="container d-flex align-items-center justify-content-between">
         
-    <h1 class="logo"><a href="index.html">LOGO<span>.</span></a></h1>
-    <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-    
+    <h1 class="logo"><a href="index.html">LOGO</a></h1>
     
     <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+    <ul>
+          <li class="active"><a href="index.html">INICIO</a></li>
+          <li><a href="#nosotros">SOBRE NOSOTROS</a></li>
+          <li class="drop-down"><a href="#servicios">SERVICIOS</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">LISTA DE SERVICIOS</a></li>
+              <li><a href="#">NUETSROS SERVICIOS</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
-
+          <li><a href="#portfolio">PROYECTOS RESLAIZADOS</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
         </ul>
       </nav>
       <!-- .nav-menu -->
 
       <!-- boton -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+      <a href="#about" class="get-started-btn scrollto">AGENDAR CITA</a>
 
       </header>
       
@@ -79,8 +68,8 @@
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>Creacion de Paginas weby mas<span>.</span></h1>
+        <div class="col-xl-7 col-lg-8">
+          <h1>Creacion de Paginas web y mas<span>.</span></h1>
           <h2>Somos una empresa con .....</h2>
         </div>
       </div>
@@ -135,15 +124,15 @@
     </div>
   </section>
 
-  <!-- section -->
-<div class="section padding_layout_1">
+  <!-- nosotros-section padding_layout_1 -->
+<div id="nosotros" class="section padding_1">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="full">
           <div class="main_heading text_align_center">
-            <h2>Por que elejirnos</h2>
-            <p class="large">Fastest repair service with best price!</p>
+            <h2 class="why">POR QUE ELEJIRNOS?</h2>
+            <p class="large">SOMO UNA EMPRESA CON---!</p>
           </div>
         </div>
       </div>
@@ -181,7 +170,7 @@
           <div class="center">
             <div class="icon"> <img src="images/it_service/i4.png" alt="#" /> </div>
           </div>
-          <h4 class="theme_color">Network solutions</h4>
+          <h4 class="theme_color">Soluciones de red</h4>
           <p>Perspiciatis eos quos totam cum minima aut!</p>
         </div>
       </div>
@@ -259,7 +248,7 @@
 
 
   <!-- Services -->
-  <div class="section padding_layout_1 gross_layout">
+  <div id="servicios" class="section padding_layout_1 gross_layout">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -333,11 +322,16 @@
     </div>
   </div>
 </div>
-<!-- section -->
-<div class="section padding_layout_1 light_silver service_list">
+
+
+<!-- lista de servicios -->
+
+
+<div class="section padding_layout_1 service_list">
   <div class="container">
+  <h2 class="why2">Lista de servicios</h2>
     <div class="row">
-      <div class="col-md-4 service_blog">
+      <div class="col-md-4 service_blog margin_bottom_50">
         <div class="full">
           <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
           <div class="service_cont">
@@ -347,7 +341,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 service_blog">
+      <div class="col-md-4 service_blog margin_bottom_50">
         <div class="full">
           <div class="service_img"> <img class="img-responsive" src="images/it_service/post-02.jpg" alt="#" /> </div>
           <div class="service_cont">
@@ -357,9 +351,69 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 service_blog">
+      <div class="col-md-4 service_blog margin_bottom_50">
         <div class="full">
           <div class="service_img"> <img class="img-responsive" src="images/it_service/post-03.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-04.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-05.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-06.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Network solutions</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-07.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Data recovery</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-08.jpg" alt="#" /> </div>
+          <div class="service_cont">
+            <h3 class="service_head">Computer repair</h3>
+            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            <div class="bt_cont"> <a class="btn sqaure_bt" href="it_service_detail.html">View Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 service_blog margin_bottom_50">
+        <div class="full">
+          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
           <div class="service_cont">
             <h3 class="service_head">Network solutions</h3>
             <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
@@ -370,6 +424,7 @@
     </div>
   </div>
 </div>
+<!-- end section -->
 <!-- end section services -->
 
    <!-- ======= Clients Section ======= -->
